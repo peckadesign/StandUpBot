@@ -1,4 +1,4 @@
-# StandUpBot
+# StandUpBot [![Build Status](https://travis-ci.org/peckadesign/StandUpBot.svg?branch=master)](https://travis-ci.org/peckadesign/StandUpBot)
 
 Připomínač denních stand-upů.
 
