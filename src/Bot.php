@@ -22,7 +22,7 @@ final class Bot
 	public function speech(): string
 	{
 		$place = $this->placeDetector->getPlace();
-		return sprintf("Za 5 minut denní stand-up u programátorů %s", mb_strtoupper($place));
+		return sprintf("Za 5 minut denní stand-up %s", $place);
 	}
 
 }

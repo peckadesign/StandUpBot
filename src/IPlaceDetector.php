@@ -5,10 +5,6 @@ namespace Pd\StandUpBot;
 interface IPlaceDetector
 {
 
-	public const UP = 'nahoře';
-	public const DOWN = 'dole';
-
-
 	public function getPlace(): string;
 
 }

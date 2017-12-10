@@ -10,8 +10,8 @@ final class GetPlaceTest extends \Tester\TestCase
 	public function getTestGetPlaceData(): array
 	{
 		return [
-			['2017-12-06', \Pd\StandUpBot\IPlaceDetector::UP],
-			['2017-12-13', \Pd\StandUpBot\IPlaceDetector::DOWN],
+			['2017-12-06', 'u programátorů NAHOŘE'],
+			['2017-12-13', 'u programátorů DOLE'],
 		];
 	}
 
