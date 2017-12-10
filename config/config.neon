@@ -1,0 +1,20 @@
+services:
+	-
+		class: Pd\StandUpBot\Bot
+
+	-
+		class: Pd\StandUpBot\Command
+
+	-
+		class: Pd\StandUpBot\Notifier
+
+	-
+		class: Pd\StandUpBot\Slack
+		arguments:
+			webHookUrl: %webHookUrl%
+
+	-
+		class: Pd\StandUpBot\NowDateTimeProvider
+
+	-
+		class: Pd\StandUpBot\WeekPlaceDetector

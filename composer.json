@@ -1,0 +1,34 @@
+{
+	"name": "pd/stand-up-bot",
+	"description": "Připomínač denních stand-upů",
+	"type": "project",
+	"license": "MIT",
+	"authors": [
+		{
+			"name": "Milan Pála",
+			"email": "milan.pala@peckadesign.cz"
+		}
+	],
+	"minimum-stability": "stable",
+    "autoload": {
+        "psr-4": {
+            "Pd\\StandUpBot\\": "src"
+        }
+    },
+	"autoload-dev": {
+		"psr-4": {
+			"PdTests\\StandUpBot\\": "tests"
+		}
+	},
+	"require": {
+		"php": "7.1.*",
+		"ext-mbstring": "*",
+		"ext-json": "*",
+		"ext-curl": "*",
+		"pd/holidays": "0.1.*",
+		"nette/di": "2.4.*"
+	},
+	"require-dev": {
+		"nette/tester": "^2.0"
+	}
+}
