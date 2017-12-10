@@ -29,6 +29,8 @@
 		"nette/di": "2.4.*"
 	},
 	"require-dev": {
-		"nette/tester": "^2.0"
+		"nette/tester": "^2.0",
+		"pd/coding-standard": "1.10.*",
+		"phpstan/phpstan": "0.9.*"
 	}
 }
