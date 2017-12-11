@@ -39,7 +39,7 @@ final class Command
 		}
 
 		$message = $this->bot->speech();
-		$this->slack->send($message, "#café", 'Kávovar', ':coffee:');
+		$this->slack->send($message, "#general", 'Stand-up Bot', ':robot_face:');
 
 	}
 
