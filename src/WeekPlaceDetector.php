@@ -23,7 +23,7 @@ final class WeekPlaceDetector implements IPlaceDetector
 		$now = $this->dateTimeProvider->getDateTime();
 		$weekNumber = (int) $now->format('W');
 
-		return $weekNumber % 2 === 0 ? self::DOWN : self::UP;
+		return sprintf('u programátorů %s',$weekNumber % 2 === 0 ? 'DOLE' : 'NAHOŘE');
 	}
 
 }

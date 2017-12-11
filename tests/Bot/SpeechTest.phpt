@@ -14,7 +14,7 @@ final class SpeechTest extends \Tester\TestCase
 
 			public function getPlace(): string
 			{
-				return 'na místě';
+				return 'u programátorů NA MÍSTĚ';
 			}
 		};
 
